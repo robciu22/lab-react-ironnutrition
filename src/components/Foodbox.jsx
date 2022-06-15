@@ -15,7 +15,10 @@ function FoodBox(props) {
       <p>
         <b>Total Calories: {calories * servings} </b> kcal
       </p>
-      <Button type="primary"> Delete </Button>
+      {/* <Button onClick={()=> setFoods()}> Delete </Button> */}
+      {/* <button onClick={() => setContacts(contacts._id)} className="">
+        Delete
+      </button> */}
     </Card>
   </Col>
   );
